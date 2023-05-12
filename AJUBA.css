@@ -1,0 +1,140 @@
+body {
+  background-color: #f1f1f1;
+}
+
+/* Add some spacing between the list items */
+#link-list li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/* Style the delete button on hover */
+.delete-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.delete-button:hover {
+  background-color: #e74c3c;
+  cursor: pointer;
+}
+
+/* Style the list items when hovered over */
+#link-list li:hover {
+  background-color: #154a26;
+}
+
+/* Center the text in the list items */
+#link-list li a {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+#link-list li a img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* style.css */
+
+body {
+  background-color: #g2400;
+     background-image: linear-gradient(to right, skyblue , yellow);
+
+}
+ #header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+     
+    }
+
+    #header a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    #header a:hover {
+      color: #ccc;
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+/* Add a border to the container */
+.container {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Add a transition effect to the list items */
+#link-list li {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Add a hover effect to the list items */
+#link-list li:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+/* Add a transition effect to the delete button */
+.delete-button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Add a hover effect to the delete button */
+.delete-button:hover {
+  transform: scale(1.1);
+}
+
+/* Add some padding to the container */
+.container {
+  padding: 30px;
+}
+
+/* Style the images */
+#link-list img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+#link-list img:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
